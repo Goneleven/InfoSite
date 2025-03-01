@@ -1,0 +1,210 @@
+/* Padrão Site todo */
+
+* {
+    margin: auto;
+    position: relative;
+    font-family: system-ui, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    background-color: #121212;
+}
+
+
+/* ---------------------------------------- */
+
+
+/* Personalização do HEADER: */
+
+.header {
+    /* background-color: rgb(212, 163, 163); */
+    height: 50px;
+    border-radius: 0px 0px 15px 15px;
+    text-align: center;
+
+}
+
+.abaLinks,
+.abaAncora {
+    background-color: rgb(255, 255, 255);
+    width: 275px;
+    height: 60px;
+    border-radius: 0px 0px 15px 15px;
+    text-align: center;
+    box-shadow: 0px 3px 15px rgb(255, 254, 254);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.abaLinks {
+    float: right;
+}
+
+.abaAncora {
+    float: left;
+}
+
+.main {
+    max-width: 1100px;
+
+}
+
+
+/* ---------------------------------------- */
+
+/* Personalização do MAIN */
+
+/* Arrumando o Titulo */
+
+.titulo .logo1 {
+    width: 80px;
+    float: left;
+}
+
+.titulo .logo2 {
+    width: 80px;
+    float: right;
+}
+
+.titulo h1 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.titulo {
+    /* border: 3px solid green; */
+    width: 500px;
+    text-align: center;
+    display: flex;
+    padding-bottom: 50px;
+
+}
+
+/* Caixas de texto e Caixas com imagens: */
+
+.container,
+.container2,
+.container3,
+.container4,
+.container5,
+.container6 {
+    background-color: #202020;
+    border: 2px solid black;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+
+}
+
+.container,
+.container3 {
+    height: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.container2,
+.container4,
+.container5,
+.container6 {
+    height: 170px;
+    width: 95%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.container2 {
+    background-image: url(../_imagens/bannerLBP.png);
+}
+
+.container4 {
+    background-image: url(../_imagens/bannerLBP2.png);
+}
+
+.container5 {
+    background-image: url(../_imagens/zbannerTechno.png);
+}
+
+.container6 {
+    background-image: url(../_imagens/zbannerTechno2.jpg);
+}
+
+
+.object {
+    max-width: 850px;
+    text-align: justify;
+
+}
+
+/* Imagens no fundo das escritas */
+
+.figuraFundo,
+.figuraFundo2 {
+    position: absolute;
+    text-align: center;
+}
+
+.figuraFundo img {
+    width: 750px;
+    opacity: 10%;
+}
+
+.figuraFundo2 img {
+    width: 230px;
+    opacity: 15%;
+}
+
+/* Formatação do link presente no texto (não confundir com o fundo) */
+
+.linkNoTexto {
+    color: rgb(150, 109, 255);
+}
+
+
+/* ---------------------------------------- */
+
+
+/* Personalização do FOOTER: */
+
+.footer {
+    background-color: black;
+    color: white;
+    height: 150px;
+    text-align: center;
+}
+
+.footerInfos {
+    padding-top: 20px;
+
+}
+
+/* .footer img {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+} */
+
+
+/* ---------------------------------------- */
+
+
+/* Personalização GERAL (Elementos) */
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    padding-bottom: 10px;
+}
