@@ -4,11 +4,34 @@
     margin: auto;
     position: relative;
     font-family: system-ui, 'Open Sans', 'Helvetica Neue', sans-serif;
+    transition: all 0.50s ease-in-out;
 }
 
 body {
     background-color: #121212;
+
 }
+
+.light {
+    background-color: rgb(245, 209, 179);
+
+    p,
+    h1,
+    h2,
+    h3,
+    li {
+        color: black;
+    }
+
+    .abaAncora,
+    .abaLinks,
+    .container,
+    .container3 {
+        background-color: rgb(245, 179, 179);
+        box-shadow: 0px 0px 0px 0px;
+    }
+}
+
 
 
 /* ---------------------------------------- */
@@ -201,10 +224,24 @@ h1 {
     text-align: center;
 }
 
+h2,
+h3 {
+    color: white;
+}
+
 a {
     text-decoration: none;
 }
 
 li {
     padding-bottom: 10px;
+}
+
+button{
+    border: 1px solid black;
+    border-radius: 0px 0px 15px 15px;
+    color: black;
+    width: 100px;
+    height: 25px;
+    cursor: pointer;
 }
